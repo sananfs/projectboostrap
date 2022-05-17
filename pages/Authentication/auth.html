@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="auth.css" />
+    <title>Login | Register</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left"></div>
+        <div class="right">
+            <a class="back" href="../../index.html"> <svg class="bi bi-house-door"></svg>Home </a>
+            <div class="switchs">
+                <button class="switchlink" onclick="openForm(event, 'SignUp')" id="defaultOpen">Sign Up</button>
+                <button class="switchlink" onclick="openForm(event, 'Login')">Login</button>
+            </div>
+            <div class="switch-container">
+                <div id="SignUp" class="switchcontent">
+                    <h1 class="title">Sign Up</h1>
+                    <form action="" method="post" name="SignUp" data-netlify="true">
+                        <div class="field-wrap">
+                            <!-- <label for="name">Full Name</label> -->
+                            <input type="text" name="full name" id="name" required autocomplete="off" placeholder="Full Name" />
+                        </div>
+                        <div class="field-wrap">
+                            <!-- <label for="email">Email Address</label> -->
+                            <input type="email" name="email" id="email" required autocomplete="off" placeholder="Email Address" />
+                        </div>
+                        <div class="field-wrap">
+                            <!-- <label for="password">Set A Password</label> -->
+                            <input type="password" name="password" id="password" required autocomplete="off" placeholder="Password" />
+                        </div>
+                        <button type="submit" class="actionbtn">Get Started</button>
+                    </form>
+                </div>
+                <div id="Login" class="switchcontent">
+                    <h1 class="title">Sign In</h1>
+                    <form action="" method="post" name="SignUp" data-netlify="true">
+                        <div class="field-wrap">
+                            <input type="email" name="email" id="signInEmail" required autocomplete="off" placeholder="Email Address" />
+                            <!-- <label for="signInEmail">Email Address</label> -->
+                        </div>
+                        <div class="field-wrap">
+                            <input type="password" name="password" id="signInPswd" required autocomplete="off" placeholder="Password" />
+                            <!-- <label for="signInPswd">Set A Password</label> -->
+                        </div>
+                        <p class="forgot"><a href="#">Forgot Password</a></p>
+                        <button type="submit" class="actionbtn">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src=""></script>
+</body>
+
+</html>
