@@ -14,9 +14,14 @@ body {
 
 /* CSS BAGIAN NAVBAR BUTTON */
 
-button {
+
+/* button {
     position: relative;
     left: 230px;
+} */
+
+#navbar .navbar .container ul li a {
+    font-size: 0.9em;
 }
 
 .btn1 {
@@ -26,7 +31,7 @@ button {
     border-color: blueviolet !important;
     border-radius: 5px;
     color: white;
-    padding: 7px 20px 7px 20px;
+    padding: 8px 20px 6px 20px;
     transition: all 0.5s ease;
 }
 
@@ -52,6 +57,11 @@ button {
     transition: all 0.5s;
 }
 
+
+/* .gokil .col {
+    padding-bottom: 190px;
+} */
+
 .gokil .col .btn:hover {
     background-color: #17dad0 !important;
     transition: all 0.5s;
@@ -71,14 +81,16 @@ button {
 
 /* CSS TEMUKAN BAKAT KREATIFMU */
 
+.gokil .img1 {
+    width: 50%;
+}
+
 .gokil h2 {
     font-size: 40px;
-    padding-left: 155px;
     margin-top: 110px;
 }
 
 .gokil p {
-    padding-left: 157px;
     margin-top: 10px;
 }
 
@@ -87,10 +99,11 @@ button {
     width: 100px;
 }
 
-.gokil button {
+
+/* .gokil button {
     position: relative;
     left: 155px;
-}
+} */
 
 .gokil .btn-dark {
     background-color: white !important;
@@ -99,10 +112,7 @@ button {
 }
 
 .gokil img {
-    /* padding-left: 650px; */
-    position: relative;
-    bottom: 300px;
-    left: 650px;
+    width: 100%;
 }
 
 
@@ -200,10 +210,7 @@ button {
     background-color: blueviolet;
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
-    position: relative;
-    top: -100px;
     width: 1020px;
-    right: 40px;
     transition: all 0.5s ease;
 }
 
@@ -250,6 +257,8 @@ button {
 .container .kelas .col .btn {
     background-color: blueviolet !important;
     border-radius: 50px;
+    position: relative;
+    right: 165px;
 }
 
 .container .kelas .col .btn:hover {
@@ -321,6 +330,11 @@ button {
 .testimonials .card .content {
     position: relative;
     z-index: 2;
+}
+
+.accordion .card .card-header h2 .btn-link {
+    position: relative;
+    left: 230px;
 }
 
 .accordion .card {
@@ -396,5 +410,23 @@ footer button:hover {
 @media screen and (max-width: 990px) {
     button {
         position: static;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    #gokil .gokil h2 {
+        position: relative;
+        top: -100px;
+        font-size: 1.5em;
+    }
+    #gokil .gokil p {
+        position: relative;
+        top: -100px;
+        font-size: 0.9em;
+        line-height: 5px;
+    }
+    #gokil .gokil a {
+        position: relative;
+        top: -100px;
     }
 }

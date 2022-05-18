@@ -14,9 +14,14 @@ body {
 
 /* CSS BAGIAN NAVBAR BUTTON */
 
-button {
+
+/* .container button {
     position: relative;
     left: 230px;
+} */
+
+#navbar .navbar .container ul li a {
+    font-size: 0.9em;
 }
 
 .btn1 {
@@ -26,18 +31,36 @@ button {
     border-color: blueviolet !important;
     border-radius: 5px;
     color: white;
-    padding: 7px 20px 7px 20px;
+    padding: 8px 20px 6px 20px;
+    transition: all 0.5s ease;
+}
+
+.btn1:hover {
+    background-color: #17dad0 !important;
+    border: solid #17dad0 !important;
 }
 
 .btn2 {
     background-color: white !important;
     border-radius: 5px;
+    transition: all 0.5s ease;
+}
+
+.btn2:hover {
+    background-color: #17dad0 !important;
+    border: solid #17dad0 !important;
+    color: white !important;
 }
 
 .navbar-nav button:hover {
     background-color: #17dad0 !important;
     transition: all 0.5s;
 }
+
+
+/* .gokil .col {
+    padding-bottom: 190px;
+} */
 
 .gokil .col .btn:hover {
     background-color: #17dad0 !important;
@@ -60,6 +83,39 @@ button {
 
 .gokil h2 {
     font-size: 40px;
+    margin-top: 110px;
+}
+
+.gokil p {
+    margin-top: 10px;
+}
+
+.gokil a {
+    margin-top: 20px;
+    width: 100px;
+}
+
+
+/* .gokil button {
+    position: relative;
+    left: 155px;
+} */
+
+.gokil .btn-dark {
+    background-color: white !important;
+    color: black;
+    border-color: blueviolet;
+}
+
+.gokil img {
+    width: 100%;
+}
+
+
+/* CSS TEMUKAN BAKAT KREATIFMU */
+
+.gokil h2 {
+    font-size: 40px;
     padding-left: 155px;
     margin-top: 110px;
 }
@@ -72,11 +128,6 @@ button {
 .gokil a {
     margin-top: 20px;
     width: 100px;
-}
-
-.gokil button {
-    position: relative;
-    left: 155px;
 }
 
 .gokil .btn-dark {
@@ -312,6 +363,11 @@ button {
 .testimonials .card .content {
     position: relative;
     z-index: 2;
+}
+
+.accordion .card .card-header h2 .btn-link {
+    position: relative;
+    left: 230px;
 }
 
 .accordion .card {
