@@ -9,6 +9,21 @@ body {
     overflow: hidden;
 }
 
+.container .login-content .home {
+    position: relative;
+    bottom: 80px;
+    right: 350px;
+    color: black;
+}
+
+.container .login-content .home:hover {
+    color: coral;
+}
+
+.container .login-content .home i {
+    font-size: 1.5em;
+}
+
 .wave {
     position: fixed;
     bottom: 0;

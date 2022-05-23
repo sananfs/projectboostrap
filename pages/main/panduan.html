@@ -29,50 +29,48 @@
 
 <body>
     <!-- Membuat bagian navbar -->
-    <section id="navbar" class="container">
-        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white justify-content-lg-between">
-            <div class="container">
-                <a class="navbar-brand pr-lg-5 mr-lg-5" href="#"> <img src="/gambar/logo.JPG" width="60" height="40" class="d-inline-block  align-top" alt="" /> Bootstrap </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg shadow-none navbar-light bg-white justify-content-lg-between">
+        <div class="container">
+            <a class="navbar-brand pr-lg-5 mr-lg-5" href="#"> <img src="../../gambar/logo.JPG" width="60" height="40" class="d-inline-block  align-top" alt="" /> Bootstrap </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon text-danger"></span>
         </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active pl-lg-5">
-                            <a class="nav-link" href="../../index.html">Beranda <span class="sr-only">(current)</span></a>
-                        </li>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active pl-lg-5">
+                        <a class="nav-link" href="../../index.html">Beranda <span class="sr-only">(current)</span></a>
+                    </li>
 
-                        <li class="nav-item active dropdown pl-lg-5">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">Kelas </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="/pages/main/katalog.html">Semua Kelas</a>
-                                <a class="dropdown-item" href="/pages/main/katalog/photoshop.html">Kategori - Graphic Design</a>
-                                <a class="dropdown-item" href="/pages/main/katalog/illustration.html">Kategori - Illustration</a>
-                                <a class="dropdown-item" href="/pages/main/katalog/3d.html">Kategori - 3D Design</a>
-                                <a class="dropdown-item" href="/pages/main/katalog/uiux.html">Kategori - UI/UX Design</a>
-                                <a class="dropdown-item" href="/pages/main/katalog/motion.html">Kategori - Videography and Motion</a>
-                            </div>
-                        </li>
-                        <li class="nav-item active pl-lg-5">
-                            <a class="nav-link" href="/pages/main/syarat.html">Syarat & ketentuan</a>
-                        </li>
-                        <li class="nav-item active pl-lg-5">
-                            <a class="nav-link" href="/pages/main/panduan.html">Panduan</a>
-                        </li>
-                        <li class="nav-item active px-lg-5">
-                            <a class="nav-link" href="/pages/main/faq.html">FAQ</a>
-                        </li>
-                        <a href="/pages/Authentication/auth.html" class="pl-lg-5"><button type="button" class="btn btn-secondary p-2 m-1">Login/Register</button></a>
-                    </ul>
-                </div>
+                    <li class="nav-item active dropdown pl-lg-5">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">Kelas </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="../../pages/main/katalog.html">Semua Kelas</a>
+                            <a class="dropdown-item" href="../../pages/main/katalog/photoshop.html">Kategori - Graphic Design</a>
+                            <a class="dropdown-item" href="../../pages/main/katalog/illustration.html">Kategori - Illustration</a>
+                            <a class="dropdown-item" href="../../pages/main/katalog/3d.html">Kategori - 3D Design</a>
+                            <a class="dropdown-item" href="../../pages/main/katalog/uiux.html">Kategori - UI/UX Design</a>
+                            <a class="dropdown-item" href="../../pages/main/katalog/motion.html">Kategori - Videography and Motion</a>
+                        </div>
+                    </li>
+                    <li class="nav-item active pl-lg-5">
+                        <a class="nav-link" href="../../pages/main/syarat.html">Syarat & ketentuan</a>
+                    </li>
+                    <li class="nav-item active pl-lg-5">
+                        <a class="nav-link" href="../../pages/main/panduan.html">Panduan</a>
+                    </li>
+                    <li class="nav-item active px-lg-5">
+                        <a class="nav-link" href="../../pages/main/faq.html">FAQ</a>
+                    </li>
+                    <a href="../../pages/Authentication/auth.html" class="pl-lg-5"><button type="button" class="btn btn-secondary p-2 m-1">Login/Register</button></a>
+                </ul>
             </div>
-        </nav>
-    </section>
+        </div>
+    </nav>
     <!-- menutup navbar -->
 
     <!-- Sesi Panduan -->
-    <div class="container text-center pt-5">
-        <div class="row pt-5">
+    <div class="container text-center pb-5">
+        <div class="row">
             <div class="col pt-5">
                 <h1><b>Panduan yang Akan Membantumu</b></h1>
             </div>
@@ -84,15 +82,14 @@
         </div>
     </div>
 
-    <!-- Pertanyaan Audiens -->
-    <div class="container pt-5">
+    <div class="container">
         <div class="row pertanyaan panduan mb-4 text-center pl-5">
             <div class="col">
                 <h1><b>Pertanyaan yang Sering di Tanyakan</b></h1>
             </div>
         </div>
-        <div class="row row-cols-xl-2 row-cols-lg-1 row-cols-md-5 row-cols-sm-5 row-cols-5">
-            <div class="col">
+        <div class="row">
+            <div class="col-md-6">
                 <div class="accordion" id="accordionExample">
                     <div class="card">
                         <div class="card-header" id="headingOne">
@@ -107,7 +104,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-md-6">
                 <div class="accordion" id="accordionExample">
                     <div class="card">
                         <div class="card-header" id="headingTwo">
@@ -123,7 +120,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-md-6">
                 <div class="accordion" id="accordionExample">
                     <div class="card">
                         <div class="card-header" id="headingThree">
@@ -138,7 +135,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-md-6">
                 <div class="accordion" id="accordionExample">
                     <div class="card">
                         <div class="card-header" id="headingFour">
@@ -153,7 +150,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-md-6">
                 <div class="accordion" id="accordionExample">
                     <div class="card">
                         <div class="card-header" id="headingFive">
@@ -170,7 +167,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-md-6">
                 <div class="accordion" id="accordionExample">
                     <div class="card">
                         <div class="card-header" id="headingSix">
@@ -187,7 +184,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-md-6">
                 <div class="accordion" id="accordionExample">
                     <div class="card">
                         <div class="card-header" id="headingSeven">
@@ -202,7 +199,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-md-6">
                 <div class="accordion" id="accordionExample">
                     <div class="card">
                         <div class="card-header" id="headingEight">
@@ -219,7 +216,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-md-6">
                 <div class="accordion" id="accordionExample">
                     <div class="card">
                         <div class="card-header" id="headingNine">
@@ -236,7 +233,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-md-6">
                 <div class="accordion" id="accordionExample">
                     <div class="card">
                         <div class="card-header" id="headingTen">
@@ -256,7 +253,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-md-6">
                 <div class="accordion" id="accordionExample">
                     <div class="card">
                         <div class="card-header" id="headingEleven">
@@ -271,7 +268,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-md-6">
                 <div class="accordion" id="accordionExample">
                     <div class="card">
                         <div class="card-header" id="headingTwelve">
@@ -304,14 +301,14 @@
                     <h6 class="font-weight-bold mb-4"> Kelas
                     </h6>
                     <ul class="list-unstyled">
-                        <li class="my-2"><a href="/pages/main/katalog.html" id="">Semua Kelas</a></li>
-                        <li class="my-2"><a href="/pages/main/katalog/photoshop.html" id="">Kategori - Graphic Design</a></li>
-                        <li class="my-2"><a href="/pages/main/katalog/illustration.html" id="">Kategori - Illustration</a></li>
-                        <li class="my-2"><a href="/pages/main/katalog/3d.html" id="">Kategori - 3D Design</a></li>
-                        <li class="my-2"><a href="/pages/main/katalog/uiux.html" id="">
+                        <li class="my-2"><a href="../../pages/main/katalog.html" id="">Semua Kelas</a></li>
+                        <li class="my-2"><a href="../../pages/main/katalog/photoshop.html" id="">Kategori - Graphic Design</a></li>
+                        <li class="my-2"><a href="../../pages/main/katalog/illustration.html" id="">Kategori - Illustration</a></li>
+                        <li class="my-2"><a href="../../pages/main/katalog/3d.html" id="">Kategori - 3D Design</a></li>
+                        <li class="my-2"><a href="../../pages/main/katalog/uiux.html" id="">
                             Kategori - UI/UX Design
                         </a></li>
-                        <li class="my-2"><a href="/pages/main/katalog/motion.html" id="">
+                        <li class="my-2"><a href="../../pages/main/katalog/motion.html" id="">
                             Kategori - Videography and Motion
                         </a></li>
                     </ul>

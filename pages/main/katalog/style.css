@@ -5,6 +5,7 @@ body {
     max-width: 100%;
     overflow-x: hidden;
     text-decoration: none;
+    font-family: "Times New Roman", Times, serif !important;
 }
 
 .paragraph {
@@ -13,11 +14,6 @@ body {
 
 
 /* CSS BAGIAN NAVBAR BUTTON */
-
-button {
-    position: relative;
-    left: 230px;
-}
 
 .btn1 {
     background-color: blueviolet !important;
@@ -42,6 +38,17 @@ button {
 .gokil .col .btn:hover {
     background-color: #17dad0 !important;
     transition: all 0.5s;
+}
+
+.navbar .container .navbar-toggler {
+    border: solid #a973ff !important;
+    position: relative;
+    left: 10px;
+    color: #03a9f4 !important;
+}
+
+.navbar .container .navbar-toggler-icon {
+    color: #03a9f4 !important;
 }
 
 
@@ -333,11 +340,16 @@ button {
     left: -20px;
 }
 
-.container .row .col .accordion .card .card-header .btn:hover {
+.container .row .accordion .card button {
+    position: relative;
+    left: 230px;
+}
+
+.container .row .accordion .card .card-header .btn:hover {
     background-color: blueviolet !important;
 }
 
-.container .row .col .accordion .card .collapse .card-body {
+.container .row .accordion .card .collapse .card-body {
     background-color: white;
 }
 
@@ -351,11 +363,6 @@ button {
 
 /* footer */
 
-footer ul li>* {
-    text-decoration: none;
-    color: rgb(70, 69, 69);
-}
-
 footer>* {
     font-size: 0.8em;
 }
@@ -365,8 +372,21 @@ footer h6 {
 }
 
 footer a {
-    color: rgb(70, 69, 69);
+    color: rgb(70, 69, 69) !important;
     margin-right: 15px;
+    text-decoration: none !important;
+}
+
+footer a:hover {
+    font-weight: bold;
+    color: black;
+    transform: scale(2);
+}
+
+footer a:hover {
+    font-weight: bold;
+    color: black;
+    transform: scale(2);
 }
 
 footer .btn {

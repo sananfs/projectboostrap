@@ -5,6 +5,7 @@ body {
     max-width: 100%;
     overflow-x: hidden;
     text-decoration: none;
+    font-family: "Times New Roman", Times, serif !important;
 }
 
 .paragraph {
@@ -20,7 +21,7 @@ body {
     left: 230px;
 } */
 
-#navbar .navbar .container ul li a {
+.navbar .container ul li a {
     font-size: 0.9em;
 }
 
@@ -393,11 +394,12 @@ body {
     left: -20px;
 }
 
-.container .row .col .accordion .card .card-header .btn:hover {
+.container .row .accordion .card .card-header .btn:hover {
     background-color: blueviolet !important;
+    text-decoration: none !important;
 }
 
-.container .row .col .accordion .card .collapse .card-body {
+.container .row .accordion .card .collapse .card-body {
     background-color: white;
 }
 
@@ -411,11 +413,6 @@ body {
 
 /* footer */
 
-footer ul li>* {
-    text-decoration: none;
-    color: rgb(70, 69, 69);
-}
-
 footer>* {
     font-size: 0.8em;
 }
@@ -425,8 +422,21 @@ footer h6 {
 }
 
 footer a {
-    color: rgb(70, 69, 69);
+    color: rgb(70, 69, 69) !important;
     margin-right: 15px;
+    text-decoration: none !important;
+}
+
+footer a:hover {
+    font-weight: bold;
+    color: black;
+    transform: scale(2);
+}
+
+footer a:hover {
+    font-weight: bold;
+    color: black;
+    transform: scale(2);
 }
 
 footer .btn {
@@ -451,7 +461,6 @@ footer button:hover {
     border: solid white;
     padding: 10px;
     transition: all 0.5s ease;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
 }
 
 .katalog .container .row .col h4 {
